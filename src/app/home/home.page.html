@@ -1,20 +1,30 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      TeLlevoApp
     </ion-title>
   </ion-toolbar>
+  <ion-button color="success" size="small" [routerLink]="['/login']">Iniciar Sesión</ion-button> <ion-button color="danger" size="small" [routerLink]="['/register']">Registrarse</ion-button>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="secondary" class="ion-padding">
+  <div class="glass-content ion-text-center">
+<ion-card>
+  <img alt="Estudiantes" src="assets/img/friends.jpg" />
+  <ion-card-header>
+    <ion-card-title>Llega a tu destino </ion-card-title>
+    <ion-card-subtitle>De manera sencilla</ion-card-subtitle>
+  </ion-card-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card-content>
+    Inicia Sesion con tus credenciales de estudiante de @DUOCUC y comienza a experimentar la comodidad y seguridad de ida a la institucion y/o vuelta a casa con tus compañer@s.
+  </ion-card-content>
+</ion-card>
+</div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title> ¡Viaja seguro! </ion-title>
+  </ion-toolbar>
+</ion-footer>
